@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: none;
+    background: burlywood;
+    font-family: Arial, Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 1em auto;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 1em auto;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 1em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid blueviolet;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+legend {
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 70%;
+    min-height: 2em;
+    max-width: 400px;
+    background-color: whitesmoke;
+}
+
+.inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input, textarea {
+    border: 1px solid black;
+    color: black;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    height: 2em;
+    margin: 1em auto;
+    font-size: medium;
+    background-color:blueviolet;
+    border-color: black;
+    min-width: 100px;
+    color: black;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border-top: 4px double black;
+    padding-bottom: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: blueviolet;
+}

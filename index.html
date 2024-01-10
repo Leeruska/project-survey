@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Project/</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1 id="title">Survey Project for practice purposes</h1>
+        <p id="description"> Thanks for checking in! This does not collect any data. </p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name: <input id="name" type="text" required placeholder="write your full name"/></label>
+                <label id="email-label" for="email">Email: <input id="email" type="email" required placeholder="write your email address"/></label>
+                <label id="number-label" for="number">Age: <input id="number" type="number" min="5" max="110" placeholder="age" /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Code related questions</legend>
+                <legend>Which option best describes your level:</legend>
+                <label for="dropdown">
+                    <select id="dropdown" name="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">Beginner</option>
+                        <option value="2">Junior</option>
+                        <option value="3">Senior</option>
+                        <option value="4">Master</option>
+                    </select>
+                </label>
+                <legend> Which of these describes your job the most:</legend>
+                    <label for="front-end"><input type="radio" name="job" class="inline" value="front-end" /> Front-end</label>
+                    <label for="back-end"><input type="radio" name="job" class="inline" value="back-end"  /> Back-end</label>
+                    <label for="full-stack"><input type="radio" name="job" class="inline" value="full-stack"  /> Full-stack</label>
+                <legend>Which of these do you use on your daily work?</legend>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="html" /> HTML</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="css" /> CSS</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="js" /> Javascript</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="react" /> React</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="python" /> Python</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="cplusplus" /> C++</label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="other" /> Other: <input type="text" id="other"/></label>
+            </fieldset>
+            <fieldset>
+                <legend>Any comments?</legend>
+                <label for="comments">
+                    <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Only good comments here"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" id="submit" />
+        </form>
+    </body>
+    <footer>
+        <p>Survey Form inspired by FreeCodeCamp. Made by <a href="https://github.com/Leeruska" target="_blank">Leeruska</a></p>
+    </footer>
+</html>
