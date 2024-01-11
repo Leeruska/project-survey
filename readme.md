@@ -19,7 +19,7 @@ Made this project to learn more about CSS and basic html. I based the project on
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- GitHub Pages URL: [https://leeruska.github.io/project-survey/](https://leeruska.github.io/project-survey/)
 
 ## Process
 
