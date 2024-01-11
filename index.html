@@ -6,13 +6,13 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <h1 id="title">Survey Project for practice purposes</h1>
-        <p id="description"> Thanks for checking in! This does not collect any data. </p>
         <form id="survey-form">
+            <h1 id="title">Survey Project for practice purposes</h1>
+            <p id="description"> Thanks for checking in! (This doesn't collect any data)</p>
             <fieldset>
-                <label id="name-label" for="name">Name: <input id="name" type="text" required placeholder="write your full name"/></label>
-                <label id="email-label" for="email">Email: <input id="email" type="email" required placeholder="write your email address"/></label>
-                <label id="number-label" for="number">Age: <input id="number" type="number" min="5" max="110" placeholder="age" /></label>
+                <label id="name-label" for="name" class="fix">Name: </label><input id="name" type="text" required placeholder="write your full name"/>
+                <label id="email-label" for="email" class="fix">Email: </label><input id="email" type="email" required placeholder="write your email address"/>
+                <label id="number-label" for="number" class="fix">Age: </label><input id="number" type="number" min="5" max="110" placeholder="age" />
             </fieldset>
             <fieldset>
                 <legend>Code related questions</legend>
@@ -37,13 +37,12 @@
                     <label><input type="checkbox" name="daily-work" class="inline" value="react" /> React</label>
                     <label><input type="checkbox" name="daily-work" class="inline" value="python" /> Python</label>
                     <label><input type="checkbox" name="daily-work" class="inline" value="cplusplus" /> C++</label>
-                    <label><input type="checkbox" name="daily-work" class="inline" value="other" /> Other: <input type="text" id="other"/></label>
+                    <label><input type="checkbox" name="daily-work" class="inline" value="other" /> Other:</label><input type="text" id="other"/>
             </fieldset>
             <fieldset>
                 <legend>Any comments?</legend>
-                <label for="comments">
+                <label for="comments"></label>
                     <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Only good comments here"></textarea>
-                </label>
             </fieldset>
             <input type="submit" id="submit" />
         </form>

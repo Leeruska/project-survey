@@ -1,6 +1,6 @@
 # READ ME
 
-This is my test survey from FreeCodeCamp course.
+This is my test survey based on my excercise on FreeCodeCamp course.
 
 ## Table of contents
 
@@ -15,42 +15,32 @@ This is my test survey from FreeCodeCamp course.
 
 ## Overview
 
-Short explanation what this project is. 
-Why did you do the project? 
-Who did you do it for?
-What did you want to learn?
+Made this project to learn more about CSS and basic html. I based the project on what I did on FreeCodeCamp excercise, but in that one I mistakenly pressed "submit" before making any CSS. So I wanted to build this again based on that.
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 
 ## Process
 
 ### Built with
-- http
-- css
-- etc...
+- HTML
+- CSS
 
 ### What I learned
 
-What did you learn?
+I haven't added a background image before, so adding it from my own photos and making it behave as I wanted was a challenge. I got good help from W3schools site: https://www.w3schools.com/cssref/pr_background-image.php
 
-This is how to add code snippets:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+I wanted to get the input fields for "Name", "Email" and "Age" to align, and I found te answers in here very helpfull: https://stackoverflow.com/questions/10868640/align-html-input-fields-by
+I just needed to make the labels for those separated for the labels for the rest or the form, and I did with "class" called "fix".
 
 ## Continued development
 
-Do you continue with the project?
+I still want to get the radio & checkboxes to align with the text, because now it looks like they are on a different level.
+Other improvements I would do:
+- make a confirmation page after submitting the survey
+- get the survey to actually save data somewhere, but that I won't make public for security and safety reasons.
+- getting the "Other" input field to be on the same with the label, the fix for the first input fields messed it up... 
 
 ## Author
 
@@ -64,3 +54,4 @@ I am Veera, check my profiles in:
 ## Acknowledgements
 
 Thanks for Frontend Mentor for this good ReadMe template.
+Thank you for FreeCodeCamp and W3Schools.
